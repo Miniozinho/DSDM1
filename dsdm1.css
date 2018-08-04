@@ -1,0 +1,119 @@
+
+body{
+	margin:0px;
+	background-color: #edf2f1;
+}
+#aa{
+	width:100%;
+	text-align: center;
+	float:left;
+	font-size: 200px;
+}
+#div{
+	 margin-left: 20%;
+	 margin-right:20%;
+}
+
+
+#textogrande{
+	font-size: 70px;
+	text-align: center;
+}
+
+p{
+	font-size: 25px;
+}
+
+#todasasimagens{
+	width: 100%;
+}
+#ing1{
+margin-left: 15%;
+width: 35%;
+float: left;
+}
+#ing2{
+margin-right: 15%; 
+width: 35%;
+float: left;
+}
+#ing3{
+	margin-left: 15%;
+	margin-right: 15%;
+width: 70%;
+float: left;
+}
+
+@media only screen and (max-width:800px) {
+	#ing2{
+		margin-left: 0%;
+	margin-right: 0%;
+width: 100%;
+float: left;
+}
+#aa{
+	width:100%;
+	text-align: center;
+	float:left;
+	font-size: 100px;
+}
+	#ing1{
+				margin-left: 0%;
+	margin-right: 0%;
+width: 100%;
+float: left;
+}
+	#ing3{
+				margin-left: 0%;
+	margin-right: 0%;
+width: 100%;
+float: left;
+}
+ 
+  #textogrande{
+  	font-size: 50px;
+  }
+  #div {
+margin-left: 10%;
+margin-right: 10%;
+}
+p{
+	font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width:600px) {
+	#ing2{
+width: 100%;
+float: left;
+}
+	#ing1{
+width: 100%;
+float: left;
+}
+	#ing3{
+width: 100%;
+float: left;
+}
+ #aa{
+	width:100%;
+	text-align: center;
+	float:left;
+	font-size: 100px;
+}
+
+  #textogrande{
+  	font-size: 40px;
+  }
+  #div {
+margin-left: 0%;
+margin-right: 0%;
+}
+p{
+	font-size: 20px;
+	margin-left: 5%;
+margin-right: 5%;
+}
+
+}
